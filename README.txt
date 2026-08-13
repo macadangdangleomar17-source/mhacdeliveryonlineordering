@@ -1,54 +1,25 @@
-MHAC DELIVERY FINAL PACKAGE V13
-================================
+MHAC DELIVERY V1 CLEAN CUSTOMER APP
 
-THIS IS THE FINAL CLEAN GITHUB PAGES PACKAGE FOR THE CURRENT TEST VERSION.
+UPLOAD THE CONTENTS OF THIS ZIP DIRECTLY TO THE ROOT OF THE NEW BRANCH.
 
-UPLOAD:
-1. Extract this ZIP.
-2. Upload EVERYTHING inside it to the ROOT of the new GitHub repository.
-3. Do NOT upload the ZIP itself.
-4. Do NOT move or rename any files/folders.
-5. Do NOT mix files from previous MHAC packages.
-
-EXPECTED ROOT:
+Expected:
 index.html
 manifest.json
-admin/
-rider/
 shared/
 assets/
-README.txt
 
-IMPORTANT:
-- ROOT index.html = CUSTOMER APP.
-- admin/index.html = ADMIN APP.
-- rider/index.html = RIDER APP.
-- shared/ contains the CSS/data used by all apps.
-- assets/ contains the logo/menu images.
+Do NOT upload the ZIP itself.
+Do NOT put the contents inside another folder.
 
-AFTER GITHUB PAGES IS ENABLED:
-Customer:
-https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+V1 is CUSTOMER APP ONLY:
+- MHAC logo/header
+- Delivery rate
+- Store selection
+- Jollibee, McDonald's, Local Food, Mang Inasal, KFC
+- Categories and food choices
+- Add-ons
+- Cart
+- Checkout/customer information
+- Service/delivery fee display
 
-Admin:
-https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/admin/
-
-Rider:
-https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/rider/
-
-TEST FLOW:
-Customer -> Choose Store -> Jollibee -> Chickenjoy -> + -> add-on -> Cart -> Checkout
-Admin -> Refresh -> Confirm -> Assign Rider
-Rider -> Refresh -> assigned order only -> ON THE WAY -> DELIVERED
-
-RATE LOGIC:
-First 1 km = P40
-Each succeeding km = +P10
-10% service fee
-Maximum 2 stores
-2nd store = +P5
-
-CURRENT TEST LIMITATION:
-Orders are stored in browser localStorage. This is a working interface/order-flow test, not yet the final real-time multi-phone Firebase system.
-
-DO NOT PROCEED TO FIREBASE UNTIL THIS PACKAGE IS CONFIRMED WORKING ON GITHUB PAGES.
+Admin, Rider, Firebase and final GPS integration come AFTER V1 customer testing.
